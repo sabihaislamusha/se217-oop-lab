@@ -6,8 +6,8 @@ public class Main02 { // main method: program starts here
         float y;
         char z;
         Boolean a; 
-        x = 500; // Assign values to the variables
-        y = (float)3.88; // (float) converts the double value 3.88 into float
+        x = 300; // Assign values to the variables
+        y = (float)2.77; // (float) converts the double value 3.88 into float
         z = 'S';  // char uses single quote
         a = true;
 
