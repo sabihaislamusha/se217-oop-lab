@@ -3,7 +3,7 @@ package main;
 public class Main07 {  // main method: program starts here
     public static void main(String[] args) {
         int age;  // Age to check
-        age = 20;
+        age = 30;
 
         // Conditions are checked from top to bottom; the first true one runs
         if(age < 2){
