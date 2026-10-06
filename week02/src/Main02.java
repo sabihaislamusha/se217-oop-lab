@@ -5,10 +5,10 @@ public class Main02 { // main method: program starts here
         int x;
         float y;
         char z;
-        Boolean a; // Assign values to the variables
-        x = 500; // (float) converts the double value 3.88 into float
-        y = (float)3.88;  // char uses single quotes
-        z = 'S';
+        Boolean a; 
+        x = 500; // Assign values to the variables
+        y = (float)3.88; // (float) converts the double value 3.88 into float
+        z = 'S';  // char uses single quote
         a = true;
 
         // Print each value; + joins the text with the variable
