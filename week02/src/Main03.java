@@ -1,8 +1,8 @@
 package main;
 
 public class Main03 {  // main method: program starts here
-    public static void main(String[] args) {  // Three numbers whose average we want
-    int a, b, c;
+    public static void main(String[] args) { 
+    int a, b, c;  // Three numbers whose average we want
     a = 15;
     b = 22;
     c = 37;
