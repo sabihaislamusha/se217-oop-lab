@@ -4,47 +4,30 @@ import java.util.Scanner;
 
 public class Main39 {
     public static void main(String[] args) {
+        int x,y;
+        System.out.println("Please enter the value of x and y: ");
         Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter x: ");
-        int x = sc.nextInt();
-        System.out.print("Enter y: ");
-        int y = sc.nextInt();
-        
-        System.out.println("Choice 1 = Add, 2 = Subtract, 3 = Multiply, 4 = Divide");
-        System.out.print("Choice: ");
-        int choice = sc.nextInt();
-        switch (choice) {
-            case 1:
-                System.out.println(add(x,y));
-                break;
-            case 2:
-                System.out.println(sub(x,y));
-                break;
-            case 3:
-                System.out.println(mul(x,y));
-                break;
-            case 4:
-                System.out.println(div(x,y));
-                break;
-                
-                default:
-                    System.out.println("Invalid choice!");
-                    break;
-                }
+        x = sc.nextInt();
+        y = sc.nextInt();
         sc.close();
- }
-    static int add(int x, int y){
-        return x + y;
-    }
 
-    static int sub(int x, int y){
-        return x - y;
+        int r = add(x,y);
+        System.out.println("Output: " + r);
     }
-    static int mul(int x, int y){
-        return x * y;
+static int add(int x, inty){
+    int result = x + y;
+     return result;
+}
+    static int substract(int x, int y){
+        int result = x-y;
+        return result;
     }
-    static int div(int x, int y){
-        return x / y;
+    static int multiply(int x. int y){
+        int result = x * y;
+        return result;
+    }
+    static int divide(int x. int y){
+        int result = x / y;
+        return result;
     }
 }
